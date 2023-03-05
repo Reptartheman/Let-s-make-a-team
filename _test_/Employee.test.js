@@ -1,6 +1,8 @@
 // When testing we need to first bring in an instance of the class that we want to test
 const Employee = require('../lib/Employee');
 
+
+//line 6 starts the testing suite
 describe('Employee class', () => {
     describe('Constuctor', () => {
         it('should create a new object that shows a name, id, and email', () => {
