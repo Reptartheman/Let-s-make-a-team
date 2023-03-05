@@ -12,19 +12,5 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
 
-const testQuestions = {
-    type: 'list', 
-    name: 'Simple test',
-    message: 'Is the question showing up in the console?',
-    choices: [
-        'Yes',
-        'No',
-    ]
-}
 
-const init = () => {
-    inquirer.prompt(testQuestions)
-}
-
-init();
 
