@@ -1,7 +1,7 @@
 const Engineer = require('../lib/Engineer');
 
 describe('The Engineer', () => {
-    describe('Engineer'), () => {
+    describe('Engineer', () => {
         it('should create an object with the properties from the Engineer subclass', () => {
             const engineer = new Engineer('Sarah', '005', 'Sarah@bob.com', 'Sarah_codes')
 
@@ -10,7 +10,7 @@ describe('The Engineer', () => {
             expect(engineer.email).toEqual('Sarah@bob.com');
             expect(engineer.github).toEqual('Sarah_codes');
         });
-    };
+    });
 
     describe('getRole fuction from the Engineer subclass', () => {
         it('should return the Engineers role at the company', () => {
