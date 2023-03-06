@@ -14,13 +14,13 @@ describe('The manager', () => {
 
     describe('getRole function from Manager class', () => {
         it('should return the Managers role at the company', () => {
-            expect(new Manager('Bob', '4','bob@bob.com', '7').getRole().toBe('Manager'));
+            expect(new Manager('Bob', '4','bob@bob.com', '7').getRole()).toBe('Manager');
         });
     });
 
     describe('officeNumber function form the Manager class', () => {
         it('should return the Managers office number', () => {
-            expect(new Manager('Bob', '4','bob@bob.com', '7').getOfficeNumber().toBe('7'));
+            expect(new Manager('Bob', '4','bob@bob.com', '7').getOfficeNumber()).toBe('7');
         });
     });
 });
